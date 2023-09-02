@@ -1,9 +1,8 @@
-
 /**********************/
 /* HEADER */
 /**********************/
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +14,7 @@
   padding: 0 4.8rem;
 }
 
-.logo{
+.logo {
   height: 2.2rem;
 }
 
@@ -23,11 +22,11 @@
 /* NAVIGATION */
 /**********************/
 
-.main-nav-list{
+.main-nav-list {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem; 
+  gap: 3.2rem;
 }
 
 .main-nav-link:link,
@@ -56,21 +55,19 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color:#cf711f
-
+  color: #cf711f;
 }
-
 
 /**********************/
 /* HERO SECTION */
 /**********************/
 
-.section-hero{
+.section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
 
-.hero{
+.hero {
   max-width: 130rem;
   margin: 0 auto;
   padding: 0 3.2rem;
@@ -80,28 +77,28 @@
   align-items: center;
 }
 
-.hero-description{
+.hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
-.hero-img{
+.hero-img {
   width: 100%;
 }
 
-.delivered-meals{
+.delivered-meals {
   display: flex;
   align-items: center;
   gap: 1.6rem;
   margin-top: 8rem;
 }
 
-.delivered-imgs{
+.delivered-imgs {
   display: flex;
 }
 
-.delivered-imgs img{
+.delivered-imgs img {
   height: 4.8rem;
   width: 4.8rem;
   border-radius: 50%;
@@ -109,45 +106,44 @@
   border: 3px solid #fdf2e9;
 }
 
-.delivered-imgs img:last-child{
+.delivered-imgs img:last-child {
   margin-right: 0;
 }
 
-.delivered-text{
+.delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
 }
 
-.delivered-text span{
+.delivered-text span {
   color: #cf711f;
   font-weight: 700;
 }
-
 
 /**********************/
 /* FEATURED IN SECTION */
 /**********************/
 
-.section-featured{
+.section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
 
-.heading-featured-in{
+.heading-featured-in {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.75;
   font-weight: 500;
   text-align: center;
-  margin-bottom:2.4rem;
+  margin-bottom: 2.4rem;
   color: #888;
 }
 
 .logos {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
-.logos img{
+.logos img {
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
@@ -157,11 +153,11 @@
 /* HOW IT WORKS SECTION */
 /**********************/
 
-.section-how{
+.section-how {
   padding: 9.6rem 0;
 }
 
-.step-img-box{
+.step-img-box {
   position: relative;
 
   display: flex;
@@ -170,8 +166,8 @@
 }
 
 .step-img-box::before,
-.step-img-box::after{
-  content: '';
+.step-img-box::after {
+  content: "";
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -180,28 +176,27 @@
   transform: translate(-50%, -50%);
 }
 
-
 .step-img-box::before {
   width: 60%;
   /* height: 60%; */
   /* this is related to parent's width */
   padding-bottom: 60%;
-  background-color: #fdf2e9; 
+  background-color: #fdf2e9;
   z-index: -2;
 }
 
-.step-img-box::after{
+.step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
 }
 
-.step-img{
+.step-img {
   width: 35%;
 }
 
-.step-number{
+.step-number {
   font-size: 8.6rem;
   font-weight: 600;
   color: #ddd;
@@ -217,14 +212,14 @@
 /* MEALS SECTION */
 /**********************/
 
-.section-meals{
+.section-meals {
   padding: 9.6rem 0;
 }
 
-.meal{
+.meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
-  overflow:hidden;
+  overflow: hidden;
   transition: all 0.4s;
 }
 
@@ -233,17 +228,17 @@
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
-.meal-content{
+.meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
-.meal-tags{
+.meal-tags {
   margin-bottom: 1.2rem;
   display: flex;
   gap: 0.4rem;
 }
 
-.tag{
+.tag {
   display: inline-block;
   padding: 0.4rem 0.8em;
   font-size: 1.2rem;
@@ -253,113 +248,112 @@
   font-weight: 600;
 }
 
-.tag--vegetarian{
+.tag--vegetarian {
   background-color: #51cf66;
 }
 
-.tag--vegan{
+.tag--vegan {
   background-color: #94d82d;
 }
 
-.tag--paleo{
+.tag--paleo {
   background-color: #ffd43b;
 }
 
-.meal-title{
+.meal-title {
   font-size: 2.4rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 3.2rem;
 }
 
-.meal-attributes{
+.meal-attributes {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.meal-attribute{
+.meal-attribute {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
 
-.meal-icon{
+.meal-icon {
   height: 2.4rem;
   width: 2.4rem;
   color: #e67e22;
 }
 
-.meal-img{
+.meal-img {
   width: 100%;
 }
 
-.all-recipes{
+.all-recipes {
   text-align: center;
   font-size: 1.8rem;
 }
-
 
 /**********************/
 /* TESTIMONIALS SECTION */
 /**********************/
 
-.section-testimonials{
+.section-testimonials {
   background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
 }
 
-.testimonials-container{
+.testimonials-container {
   padding: 9.6rem;
 }
 
-.testimonials{
+.testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
   column-gap: 8rem;
 }
 
-.testimonial-img{
+.testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
   margin-bottom: 1.2rem;
 }
 
-.testimonial-text{
+.testimonial-text {
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
 
-.testimonial-name{
+.testimonial-name {
   font-size: 1.6rem;
   color: #6f6f6f;
 }
 
-.gallery{
+.gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
 
-.gallery-item{
+.gallery-item {
   overflow: hidden;
 }
 
-.gallery-item img{
+.gallery-item img {
   /* images are by default inline elements and this gives them a slide border, to fix this make them block */
   display: block;
   width: 100%;
   transition: all 0.4s;
 }
 
-.gallery-item img:hover{
+.gallery-item img:hover {
   /* transform: rotate(45deg); check this for other projects */
   transform: scale(1.1);
 }
@@ -368,34 +362,33 @@
 /* PRICING SECTION */
 /**********************/
 
-.section-pricing{
+.section-pricing {
   padding: 9.6rem 0;
 }
 
-.pricing-plan{
+.pricing-plan {
   border-radius: 11px;
   width: 75%;
 }
 
-.pricing-plan--starter{
+.pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
 
-.pricing-plan--complete{
+.pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
 
-.pricing-plan--complete::after{
-  content: 'Best value';
+.pricing-plan--complete::after {
+  content: "Best value";
   position: absolute;
   top: 6%;
   right: -18%;
-
 
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -406,12 +399,12 @@
   transform: rotate(45deg);
 }
 
-.plan-header{
+.plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
 }
 
-.plan-name{
+.plan-name {
   font-size: 2rem;
   font-weight: 600;
   color: #cf711f;
@@ -420,10 +413,10 @@
   margin-bottom: 3.2rem;
 }
 
-.plan-price{
+.plan-price {
   font-size: 6.2rem;
   font-weight: 600;
-  color:#333;
+  color: #333;
   margin-bottom: 1.6rem;
 }
 
@@ -433,14 +426,41 @@
   margin-right: 0.8rem;
 }
 
-.plan-text{
+.plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
   color: #6f6f6f;
 }
 
-
-.plan-sign-up{
+.plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }

@@ -51,7 +51,6 @@ Medium: 11px;
 
 */
 
-
 * {
   padding: 0;
   margin: 0;
@@ -66,7 +65,7 @@ html {
 }
 
 body {
-  font-family: 'Rubik',sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -76,14 +75,14 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /**********************/
 
-.container{
+.container {
   /* 1140px */
-    padding: 0 3.2rem;
-    max-width: 120rem;
-    margin: 0 auto;
-  }
-  
-.grid{
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
   display: grid;
   row-gap: 9.6rem;
   column-gap: 6.4rem;
@@ -99,15 +98,15 @@ body {
   margin-bottom: 9.6rem;
 }
 
-.grid--2-cols{
+.grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid--3-cols{
+.grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.grid--4-cols{
+.grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -126,25 +125,25 @@ body {
   letter-spacing: -0.5px;
 }
 
-.heading-primary{
+.heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
-.heading-secondary{
+.heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 
-.heading-tertiary{
-  font-size: 3.0rem;
+.heading-tertiary {
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
 
-.subheading{
+.subheading {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
@@ -154,8 +153,7 @@ body {
   letter-spacing: 0.75px;
 }
 
-
-.btn:link, 
+.btn:link,
 .btn:visited {
   display: inline-block;
 
@@ -170,7 +168,7 @@ body {
   transition: all 0.3s;
 }
 
-.btn--full:link, 
+.btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
@@ -179,10 +177,9 @@ body {
 .btn--full:hover,
 .btn--full:active {
   background-color: #cf711f;
-
 }
 
-.btn--outline:link, 
+.btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
@@ -195,11 +192,11 @@ body {
   /* border: 3px solid #fff; */
 
   /* Trick to add border inside */
-  box-shadow: inset 0 0 0 3px #fff
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .link:link,
-.link:visited{
+.link:visited {
   display: inline-block;
   color: #e67e22;
   text-decoration: none;
@@ -212,29 +209,27 @@ body {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
-
 }
 
-.list{
-  list-style:none;
-  display:flex;
+.list {
+  list-style: none;
+  display: flex;
   flex-direction: column;
   gap: 1.6rem;
 }
 
-.list-item{
+.list-item {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
 
-.list-icon{
+.list-icon {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
 }
-
 
 /* HELPER/SETTINGS CLASSES */
 
@@ -246,13 +241,10 @@ body {
   margin-bottom: 4.8rem !important;
 }
 
-.center-text{
+.center-text {
   text-align: center;
 }
 
 strong {
   font-weight: 500;
 }
-
-
-
