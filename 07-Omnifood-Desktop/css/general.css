@@ -26,7 +26,10 @@ Paragraph default: 1.6;
 --- 02 COLORS
 
 - Primary: #e67e22;
-- Tints: #fdf2e9
+- Tints: 
+#fdf2e9
+#fae5d3
+
 - Shades:#cf711f
 - Accents:
 - Greys:
@@ -38,6 +41,7 @@ Paragraph default: 1.6;
 --- 06 BORDER-RADIUS
 
 Default: 9px;
+Medium: 11px;
 
 --- 07 WHITESPACE 
 
@@ -151,7 +155,8 @@ body {
   border-radius: 9px;
 
   /* Put transition on original "state" */
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
 }
 
 .btn--full:link, 
@@ -182,6 +187,38 @@ body {
   box-shadow: inset 0 0 0 3px #fff
 }
 
+.link:link,
+.link:visited{
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+
+}
+
+
+/* HELPER?SETTINGS CLASSES */
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text{
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
 }
